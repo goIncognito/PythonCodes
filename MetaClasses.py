@@ -1,6 +1,7 @@
 class Application:
-    def __init__(self, Name):
-        self.Name = Name
+
+    def __init__(self, name):
+        self.name = name
 
     @staticmethod
     def animal(self):
@@ -8,7 +9,7 @@ class Application:
     
     @classmethod
     def mammal(self):
-        if self.Name == "Dog":
+        if self.name == "Dog":
             return "Dog is a mammal"
 
 Application.mammal("Dog")
