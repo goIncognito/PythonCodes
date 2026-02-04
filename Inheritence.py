@@ -22,8 +22,7 @@ class Calc(subtract):
 
 
 calculator = Calc(4, 5)
-print(calculator.addition())
-print(calculator.multiply())
-print(calculator.divide())
-print(calculator.difference())
-        
+print("Addition: ",calculator.addition())
+print("Multiplication: ",calculator.multiply())
+print("Division: ", calculator.divide())
+print("Substraction: ", calculator.difference())
