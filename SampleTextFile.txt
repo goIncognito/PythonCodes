@@ -1,0 +1,6 @@
+I am a software engineer
+I work on Test Automation
+Using Python and Selenium for web and API
+and Pytest framework for test automation
+
+I am learning DSA now
