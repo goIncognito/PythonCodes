@@ -1,8 +1,8 @@
 def my_decorator(func):
     def wrapper():
-        print("Starts....")
+        print("Start....")
         func()
-        print("End ...")
+        print("End...")
     return wrapper()
 
 
